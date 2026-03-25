@@ -1,0 +1,10 @@
+etunimet = input("Anna etunimesi: ")
+sukunimi = input("Anna sukunimesi: ")
+puhelin = input("Anna puhelinnumerosi: ")
+sposti = input("Anna sähköpostiosoitteesi: ")
+syntymävuosi = input("Anna syntymävuotesi: ")
+
+print("NIMI: " + sukunimi + " " + etunimet)
+print("PUH: " + puhelin)
+print("E-MAIL: " + sposti)
+print("IKÄ: " + str(2026 - int(syntymävuosi)))
