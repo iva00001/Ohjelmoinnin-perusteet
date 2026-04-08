@@ -1,0 +1,7 @@
+dollarinkurssieuroina = input("Anna dollarin kurssi euroina: ")
+rahanmääräeuroina = input("Anna rahan määrä euroina: ")
+rahanmäärädollareina = float(rahanmääräeuroina) / float(dollarinkurssieuroina)
+
+print("dollarinkurssieuroina: " + dollarinkurssieuroina)
+print("rahanmääräeuroina: " + rahanmääräeuroina)
+print("rahanmäärädollareina: " + rahanmäärädollareina / float(dollarinkurssieuroina))

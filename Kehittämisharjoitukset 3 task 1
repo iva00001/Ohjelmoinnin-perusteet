@@ -1,0 +1,4 @@
+luku = int(input("Anna luku: "))
+while luku < 22:
+    print(luku)
+    luku += 2
